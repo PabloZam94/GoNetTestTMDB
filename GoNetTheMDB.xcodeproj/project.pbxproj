@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB5BAF21291475F700B68404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BAF20291475F700B68404 /* AppDelegate.swift */; };
+		AB5BAF23291475F700B68404 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BAF22291475F700B68404 /* SceneDelegate.swift */; };
+		AB5BAF25291475F700B68404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BAF24291475F700B68404 /* ViewController.swift */; };
+		AB5BAF28291475F700B68404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5BAF26291475F700B68404 /* Main.storyboard */; };
+		AB5BAF2B291475F700B68404 /* GoNetTheMDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB5BAF29291475F700B68404 /* GoNetTheMDB.xcdatamodeld */; };
+		AB5BAF2D291475F800B68404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5BAF2C291475F800B68404 /* Assets.xcassets */; };
+		AB5BAF30291475F800B68404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5BAF2E291475F800B68404 /* LaunchScreen.storyboard */; };
+		AB5BAF3B291475F800B68404 /* GoNetTheMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BAF3A291475F800B68404 /* GoNetTheMDBTests.swift */; };
+		AB5BAF45291475F800B68404 /* GoNetTheMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BAF44291475F800B68404 /* GoNetTheMDBUITests.swift */; };
+		AB5BAF47291475F800B68404 /* GoNetTheMDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BAF46291475F800B68404 /* GoNetTheMDBUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5BAF37291475F800B68404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5BAF15291475F700B68404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5BAF1C291475F700B68404;
+			remoteInfo = GoNetTheMDB;
+		};
+		AB5BAF41291475F800B68404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5BAF15291475F700B68404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5BAF1C291475F700B68404;
+			remoteInfo = GoNetTheMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB5BAF1D291475F700B68404 /* GoNetTheMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoNetTheMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5BAF20291475F700B68404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB5BAF22291475F700B68404 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB5BAF24291475F700B68404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB5BAF27291475F700B68404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB5BAF2A291475F700B68404 /* GoNetTheMDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoNetTheMDB.xcdatamodel; sourceTree = "<group>"; };
+		AB5BAF2C291475F800B68404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5BAF2F291475F800B68404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB5BAF31291475F800B68404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5BAF36291475F800B68404 /* GoNetTheMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNetTheMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5BAF3A291475F800B68404 /* GoNetTheMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetTheMDBTests.swift; sourceTree = "<group>"; };
+		AB5BAF40291475F800B68404 /* GoNetTheMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoNetTheMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5BAF44291475F800B68404 /* GoNetTheMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetTheMDBUITests.swift; sourceTree = "<group>"; };
+		AB5BAF46291475F800B68404 /* GoNetTheMDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNetTheMDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5BAF1A291475F700B68404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5BAF33291475F800B68404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5BAF3D291475F800B68404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5BAF14291475F700B68404 = {
+			isa = PBXGroup;
+			children = (
+				AB5BAF1F291475F700B68404 /* GoNetTheMDB */,
+				AB5BAF39291475F800B68404 /* GoNetTheMDBTests */,
+				AB5BAF43291475F800B68404 /* GoNetTheMDBUITests */,
+				AB5BAF1E291475F700B68404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5BAF1E291475F700B68404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5BAF1D291475F700B68404 /* GoNetTheMDB.app */,
+				AB5BAF36291475F800B68404 /* GoNetTheMDBTests.xctest */,
+				AB5BAF40291475F800B68404 /* GoNetTheMDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5BAF1F291475F700B68404 /* GoNetTheMDB */ = {
+			isa = PBXGroup;
+			children = (
+				AB5BAF20291475F700B68404 /* AppDelegate.swift */,
+				AB5BAF22291475F700B68404 /* SceneDelegate.swift */,
+				AB5BAF24291475F700B68404 /* ViewController.swift */,
+				AB5BAF26291475F700B68404 /* Main.storyboard */,
+				AB5BAF2C291475F800B68404 /* Assets.xcassets */,
+				AB5BAF2E291475F800B68404 /* LaunchScreen.storyboard */,
+				AB5BAF31291475F800B68404 /* Info.plist */,
+				AB5BAF29291475F700B68404 /* GoNetTheMDB.xcdatamodeld */,
+			);
+			path = GoNetTheMDB;
+			sourceTree = "<group>";
+		};
+		AB5BAF39291475F800B68404 /* GoNetTheMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5BAF3A291475F800B68404 /* GoNetTheMDBTests.swift */,
+			);
+			path = GoNetTheMDBTests;
+			sourceTree = "<group>";
+		};
+		AB5BAF43291475F800B68404 /* GoNetTheMDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5BAF44291475F800B68404 /* GoNetTheMDBUITests.swift */,
+				AB5BAF46291475F800B68404 /* GoNetTheMDBUITestsLaunchTests.swift */,
+			);
+			path = GoNetTheMDBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5BAF1C291475F700B68404 /* GoNetTheMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5BAF4A291475F800B68404 /* Build configuration list for PBXNativeTarget "GoNetTheMDB" */;
+			buildPhases = (
+				AB5BAF19291475F700B68404 /* Sources */,
+				AB5BAF1A291475F700B68404 /* Frameworks */,
+				AB5BAF1B291475F700B68404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoNetTheMDB;
+			productName = GoNetTheMDB;
+			productReference = AB5BAF1D291475F700B68404 /* GoNetTheMDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5BAF35291475F800B68404 /* GoNetTheMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5BAF4D291475F800B68404 /* Build configuration list for PBXNativeTarget "GoNetTheMDBTests" */;
+			buildPhases = (
+				AB5BAF32291475F800B68404 /* Sources */,
+				AB5BAF33291475F800B68404 /* Frameworks */,
+				AB5BAF34291475F800B68404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5BAF38291475F800B68404 /* PBXTargetDependency */,
+			);
+			name = GoNetTheMDBTests;
+			productName = GoNetTheMDBTests;
+			productReference = AB5BAF36291475F800B68404 /* GoNetTheMDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5BAF3F291475F800B68404 /* GoNetTheMDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5BAF50291475F800B68404 /* Build configuration list for PBXNativeTarget "GoNetTheMDBUITests" */;
+			buildPhases = (
+				AB5BAF3C291475F800B68404 /* Sources */,
+				AB5BAF3D291475F800B68404 /* Frameworks */,
+				AB5BAF3E291475F800B68404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5BAF42291475F800B68404 /* PBXTargetDependency */,
+			);
+			name = GoNetTheMDBUITests;
+			productName = GoNetTheMDBUITests;
+			productReference = AB5BAF40291475F800B68404 /* GoNetTheMDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5BAF15291475F700B68404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					AB5BAF1C291475F700B68404 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					AB5BAF35291475F800B68404 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = AB5BAF1C291475F700B68404;
+					};
+					AB5BAF3F291475F800B68404 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = AB5BAF1C291475F700B68404;
+					};
+				};
+			};
+			buildConfigurationList = AB5BAF18291475F700B68404 /* Build configuration list for PBXProject "GoNetTheMDB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5BAF14291475F700B68404;
+			productRefGroup = AB5BAF1E291475F700B68404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5BAF1C291475F700B68404 /* GoNetTheMDB */,
+				AB5BAF35291475F800B68404 /* GoNetTheMDBTests */,
+				AB5BAF3F291475F800B68404 /* GoNetTheMDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5BAF1B291475F700B68404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5BAF30291475F800B68404 /* LaunchScreen.storyboard in Resources */,
+				AB5BAF2D291475F800B68404 /* Assets.xcassets in Resources */,
+				AB5BAF28291475F700B68404 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5BAF34291475F800B68404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5BAF3E291475F800B68404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5BAF19291475F700B68404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5BAF25291475F700B68404 /* ViewController.swift in Sources */,
+				AB5BAF2B291475F700B68404 /* GoNetTheMDB.xcdatamodeld in Sources */,
+				AB5BAF21291475F700B68404 /* AppDelegate.swift in Sources */,
+				AB5BAF23291475F700B68404 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5BAF32291475F800B68404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5BAF3B291475F800B68404 /* GoNetTheMDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5BAF3C291475F800B68404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5BAF47291475F800B68404 /* GoNetTheMDBUITestsLaunchTests.swift in Sources */,
+				AB5BAF45291475F800B68404 /* GoNetTheMDBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5BAF38291475F800B68404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5BAF1C291475F700B68404 /* GoNetTheMDB */;
+			targetProxy = AB5BAF37291475F800B68404 /* PBXContainerItemProxy */;
+		};
+		AB5BAF42291475F800B68404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5BAF1C291475F700B68404 /* GoNetTheMDB */;
+			targetProxy = AB5BAF41291475F800B68404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5BAF26291475F700B68404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5BAF27291475F700B68404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB5BAF2E291475F800B68404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5BAF2F291475F800B68404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5BAF48291475F800B68404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5BAF49291475F800B68404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5BAF4B291475F800B68404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF7LAQQ759;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoNetTheMDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.GoNetTheMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5BAF4C291475F800B68404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF7LAQQ759;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoNetTheMDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.GoNetTheMDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB5BAF4E291475F800B68404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF7LAQQ759;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.GoNetTheMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoNetTheMDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoNetTheMDB";
+			};
+			name = Debug;
+		};
+		AB5BAF4F291475F800B68404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF7LAQQ759;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.GoNetTheMDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoNetTheMDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoNetTheMDB";
+			};
+			name = Release;
+		};
+		AB5BAF51291475F800B68404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF7LAQQ759;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.GoNetTheMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoNetTheMDB;
+			};
+			name = Debug;
+		};
+		AB5BAF52291475F800B68404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF7LAQQ759;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.GoNetTheMDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoNetTheMDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5BAF18291475F700B68404 /* Build configuration list for PBXProject "GoNetTheMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5BAF48291475F800B68404 /* Debug */,
+				AB5BAF49291475F800B68404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5BAF4A291475F800B68404 /* Build configuration list for PBXNativeTarget "GoNetTheMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5BAF4B291475F800B68404 /* Debug */,
+				AB5BAF4C291475F800B68404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5BAF4D291475F800B68404 /* Build configuration list for PBXNativeTarget "GoNetTheMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5BAF4E291475F800B68404 /* Debug */,
+				AB5BAF4F291475F800B68404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5BAF50291475F800B68404 /* Build configuration list for PBXNativeTarget "GoNetTheMDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5BAF51291475F800B68404 /* Debug */,
+				AB5BAF52291475F800B68404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB5BAF29291475F700B68404 /* GoNetTheMDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB5BAF2A291475F700B68404 /* GoNetTheMDB.xcdatamodel */,
+			);
+			currentVersion = AB5BAF2A291475F700B68404 /* GoNetTheMDB.xcdatamodel */;
+			path = GoNetTheMDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB5BAF15291475F700B68404 /* Project object */;
+}
